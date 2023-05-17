@@ -1,0 +1,216 @@
+.conteudo-topo img{
+    margin: 0 auto;
+    max-width: 120px;
+    max-height: 117px;
+}
+
+.titulo-principal{
+    margin: 0 auto;
+}
+.titulo-principal h1{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteudo{
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    gap: 2rem;
+    align-items: center;
+}
+
+.info-preco{
+    padding: 1rem;
+    width: 60%;
+}
+
+.lista-sessao-lista ul{
+    margin: 0 auto;
+}
+
+.lista-sessao-lista li{
+    width: 35rem;
+}
+
+.info-whapper{
+    width: 100%;
+}
+
+@media (max-width: 970px) {
+    .lista-sessao-lista{
+        flex-direction: column;
+    }
+
+    .lista-sessao-lista ul{
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 870px) {
+    html, body{
+        background-color: #fff;
+    }
+
+    .conteudo-topo{
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+    .info-preco{
+        width: 100%;
+        border-radius: 0;
+        box-shadow:none;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .info-preco h2:nth-child(1){
+        
+    }
+    .info-preco h2:nth-child(2){
+        
+    }
+    .info-preco h2:nth-child(3){
+        
+    }
+    .info-matricula{
+        background-color: #58547E;
+        color: #fff;
+        text-align: center;
+        border-radius: 2rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+        position: absolute;
+        margin-top: 18rem;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .sub-topo{
+        width: 90%;
+        margin-top: 10rem;
+        border-radius: 2rem;
+    }
+    .sub-topo p{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+    .conheca-professora{
+        width: 90%;
+        border-radius: 2rem;
+        background-color: #FFC8C8;
+    }
+    .bloco-whapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .bloco-foto-professora{
+        width: 90%;
+        background-color: #FFC8C8;
+        margin: 0 auto;
+    }
+    .bloco-foto-professora h2{
+      
+    }
+    .bloco-foto-professora img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bloco-texto-professora{
+        width: 100%;
+    }
+    .bloco-texto-professora p{
+        
+    }
+    .lista-conteudo{
+        width: 90%;
+        border-radius: 2rem;
+        background-color: #8986A5;
+        justify-content: center;
+        align-content: center;
+    }
+    .lista-conteudo h2{
+        width: 100%;
+        
+        text-align: center;
+    }
+    .lista-sessao-lista{
+        width: 100%;
+        gap: 0;
+        
+        padding: 0 auto;
+    }
+    .lista-sessao-lista ul{
+        margin: 0;
+    }
+    .lista-sessao-lista li{
+        
+        width: 100%;
+    }
+    .info-finais{
+        width: 90%;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .info-whapper{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFC8C8;
+        border-radius: 2rem;
+    }
+    .info-horarios{
+        width: 100%;
+    }
+    .info-horarios h2{
+       
+    }
+    .info-horarios p{
+        
+    }
+    .localicacao{
+        width: 100%;
+    }
+    .localicacao h2{
+        
+        color: #F18C8C;
+    }
+    .localicacao img{
+        max-width: 100%;
+    }
+    .localicacao p{
+        color: #000;
+       
+    }
+    footer p{
+        
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px){
+    .info-matricula{
+        background-color: #58547E;
+        color: #fff;
+        text-align: center;
+        border-radius: 2rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        padding: 2rem;
+        position: absolute;
+        margin-top: 12rem;
+    }
+    
+}
